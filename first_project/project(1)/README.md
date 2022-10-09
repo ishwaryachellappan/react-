@@ -1,4 +1,19 @@
-# co38a4834950b81f65b4187b7
+# coc7e4be18a0fe000d0e29e32
+
+Quick start:
+
+```
+$ yarn # npm install
+$ yarn build # npm run build
+````
+
+## Development
+
+Run Webpack in watch-mode to continually compile the JavaScript as you work:
+
+```
+$ yarn watch # npm run watch
+```
 
 ## About Scrimba
 
