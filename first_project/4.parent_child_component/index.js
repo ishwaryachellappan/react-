@@ -9,20 +9,7 @@ Challenge:
   For practice, add a new class to the image in order to style it
 */
 
-function Header() {
-    return (
-        <header>
-            <nav className="nav">
-                <img src="./react-logo.png" className="nav-logo" />
-                <ul className="nav-items">
-                    <li>Pricing</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
-        </header>
-    )
-}
+import Header from "./Header"
 
 function Footer() {
     return (

@@ -94,3 +94,15 @@ function Header() {
 
 ReactDOM.render(<Header />, document.getElementById("root"))
 ```
+
+
+
+
+https://scrimba.com/learn/learnreact/organize-components-coce046849cdbb0430854ed56
+-2.46
+
+
+starting react app:
+npx create-react-app my-app
+cd my-app
+npm start
