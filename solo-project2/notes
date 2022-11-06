@@ -1,0 +1,34 @@
+<div className="card">
+            
+            <img 
+                src={`../src/assets/${props.imageUrl}`} 
+                className="card--image" 
+            />
+            
+            <div className="card--stats">
+                
+                <p> {props.location}</p>
+                <span className="gray">{props.title} </span>
+                
+            </div>
+            <p >{props.startDate} To {props.endDate}</p>
+            <p className="card--price">
+                <span className="bold">{props.description}</span> 
+            </p>
+        </div>
+
+
+
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 300px; /* Should be removed. Only for demonstration */
+          }
+          
+          /* Clear floats after the columns */
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
